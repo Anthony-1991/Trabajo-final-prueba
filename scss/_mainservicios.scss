@@ -1,0 +1,93 @@
+.main-servicio{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr 1fr 1fr 70px;
+    gap: 0px 2px;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+      "subtitulo-servicio"
+      "servicio-baño"
+      "servicio-clinicaveterinaria"
+      "servicio-hospedaje"
+      "botoncontacto-servicio";
+
+    .subtitulo-servicio{
+        grid-area: subtitulo-servicio;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(ellipse, white, pink, blueviolet);
+        h2{
+            width: 100%;
+            height: 50px;
+            color: black;
+            font-size: 28px;
+            line-height: 50px;
+            text-align: center;
+            border-bottom: 1px solid black;
+            font-weight: bold;
+        }
+    }
+
+    .servicio-baño { 
+        grid-area: servicio-baño;
+        width: 100%; 
+        height: 100%;
+        margin-top: 20px;
+    }
+
+    .servicio-clinicaveterinaria { 
+        grid-area: servicio-clinicaveterinaria; 
+        width: 100%; 
+        height: 100%;
+        margin-top: 20px;
+    }
+
+    .servicio-hospedaje { 
+        grid-area: servicio-hospedaje; 
+        width: 100%; 
+        height: 100%;
+        margin-top: 20px;
+    }
+
+    .container_item5{
+        h3{
+            text-align: center;
+            font-weight: bold;
+        }
+        img{
+            margin: 0px 1%;
+            width: 98%;
+            height: 200px;
+        }
+        ul{
+            padding-top: 10px;
+            margin: 0px 5%;
+            li{
+                width: 90%;
+                height: auto;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .botoncontacto-servicio { 
+        grid-area: botoncontacto-servicio; 
+        text-align: center;
+        margin: 40px auto;
+        .button_contacto{
+            width: 100px;
+            height: 30px;
+            border-radius: 5px;
+            background-color: dodgerblue;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+
+}

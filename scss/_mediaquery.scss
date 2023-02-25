@@ -1,0 +1,236 @@
+@media (min-width:240px){
+    .contenedor_completo {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50px 1fr 380px;
+        gap: 0px 0px;
+        grid-template-areas:
+          "header"
+          "main"
+          "footer";
+      }
+
+      .container_vet{
+        .contenedor_deimagenes{
+            padding: 10px 10px;
+        }
+    }
+    
+    .footer{
+        grid-area: footer; 
+        height: 100%;
+    }
+}
+
+
+
+@media (min-width:360px){
+    .contenedor_completo {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50px 1fr 240px;
+        gap: 0px 0px;
+        grid-template-areas:
+          "header"
+          "main"
+          "footer";
+      }
+
+      .container_vet{
+        .contenedor_deimagenes{
+            padding: 10px 10px;
+        }
+    }
+
+    .footer{
+        grid-area: footer; 
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+}
+
+
+
+@media (min-width:576px){
+
+    .container_vet{
+        .contenedor_deimagenes{
+            padding: 10px 30px;
+        }
+    }
+
+    .main-servicio {  display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 50px 4fr 1fr;
+        gap: 0px 2px;
+        grid-auto-flow: row;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        grid-template-areas:
+          "subtitulo-servicio subtitulo-servicio subtitulo-servicio"
+          "servicio-baño servicio-clinicaveterinaria servicio-hospedaje"
+          "botoncontacto-servicio botoncontacto-servicio botoncontacto-servicio";
+      }
+
+      .container_vet{
+        border-bottom: 2px solid black;
+        .contenedor_deimagenes{
+            border-right: 2px solid black;
+            height: 100%;
+            padding: 10px auto;
+        }
+    }
+
+    .subtitulo-servicio{
+        grid-area: subtitulo-servicio;
+      }
+    
+    .servicio-baño { 
+        grid-area: servicio-baño;
+    }
+    .servicio-clinicaveterinaria { 
+        grid-area: servicio-clinicaveterinaria; 
+    }
+    
+    .servicio-hospedaje { 
+        grid-area: servicio-hospedaje; 
+    }
+    
+    .botoncontacto-servicio { 
+        grid-area: botoncontacto-servicio; 
+    }
+
+    .main-contacto {  display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 50px 90px 1fr;
+        gap: 2px 2px;
+        grid-auto-flow: row;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        grid-template-areas:
+          "subtitulo-contacto subtitulo-contacto subtitulo-contacto subtitulo-contacto subtitulo-contacto subtitulo-contacto"
+          "direccion-contacto direccion-contacto email-contacto email-contacto numero-contacto numero-contacto"
+          "formulario-contacto formulario-contacto formulario-contacto mapa-contacto mapa-contacto mapa-contacto";
+      }
+    
+    .subtitulo-contacto { 
+        grid-area: subtitulo-contacto;
+    }
+    
+    .direccion-contacto { 
+        grid-area: direccion-contacto; 
+    }
+    
+      
+    .email-contacto { 
+        grid-area: email-contacto; 
+    }
+      
+    .numero-contacto { 
+        grid-area: numero-contacto; 
+    }
+    
+      
+    .formulario-contacto { 
+        grid-area: formulario-contacto; 
+    }
+      
+    .mapa-contacto { 
+        grid-area: mapa-contacto; 
+    }
+}
+
+@media (min-width:600px){
+
+    .container_vet{
+        .contenedor_deimagenes{
+            padding: 10px 80px;
+        }
+    }
+}
+
+
+@media (min-width:676px){
+
+    .container_vet{
+        .contenedor_deimagenes{
+            padding: 10px 100px;
+        }
+    }
+}
+
+@media (min-width:720px){
+
+    .container_vet{
+        .contenedor_deimagenes{
+            padding: 10px 120px;
+        }
+    }
+}
+
+@media (min-width:768px){
+
+    .container_vet{
+        .contenedor_deimagenes{
+            padding: 10px 10px;
+        }
+    }
+    
+    .tarjeta-nosotros{
+        min-height: 830px;
+    }
+}
+
+
+
+@media (min-width:1024px){
+	.contenedor-header{
+		width: calc(100vw - 40px);
+        label{
+            display: none;
+        }
+        nav .menu{
+            position: static;
+            width: auto;
+            height: auto;
+            transform: translateX(0%);
+            float:right;
+            display: flex;
+            a{
+                border:none;
+            }
+        }
+	}
+
+    .container_vet{
+        .contenedor_deimagenes{
+            padding: 10px 90px;
+        }
+    }
+
+    .subtitulo_veterinario{
+        font-size: 30px;
+    }
+    .tarjeta-nosotros{
+        min-height: 710px;
+    }
+}
+
+
+
+@media (min-width:1200px){
+
+    .container_vet{
+        .contenedor_deimagenes{
+            padding: 10px 120px;
+        }
+    }
+
+    .tarjeta-nosotros{
+        min-height: 660px;
+    }
+}

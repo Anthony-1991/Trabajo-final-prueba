@@ -1,0 +1,99 @@
+.container_vet{
+    border-bottom: 2px solid black;
+    .contenedor_deimagenes{
+        border-right: 2px solid black;
+        height: 100%;
+        
+        padding: 10px 10px;
+        .imagen-carousel{
+            height: 250px;
+            }
+        }
+    .contenedor_detexto{
+        p{
+            font-size: 20px;
+            } 
+        .boton_contacto1{
+            width: 150px;
+            height: 32px;
+            font-family: "Montserrat-Light";
+            background-color: #1da1f2;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            }
+            .contenedor-gif img{
+                width: 80px;
+                height: 80px;
+                margin: 10px auto;
+            } 
+        }
+    }
+
+.subtitulo_veterinario{
+        width: 100vw;
+        height: 50px;
+        margin: 0;
+        color: black;
+        font-size: 28px;
+        line-height: 50px;
+        text-align: center;
+        border-bottom: 2px solid black;
+        font-weight: bold;
+        background: radial-gradient(ellipse, white, pink, blueviolet);
+    }
+
+.container_veteri2{
+    h3{
+        text-align: center;
+        margin: 10px 0px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    img{
+        width: 70%;
+        margin: 0% 15%;
+        height: 200px;
+    }
+    p{
+        width: 70%;
+        margin: 0% 15%;
+        margin-top: 5px;
+        height: auto;
+        font-size: 18px;
+        font-weight: normal;
+    }
+}
+
+.container_veteri3{
+    img{
+        width: 70%;
+        margin: 0% 15%;
+        margin-top: 20px;
+        height: 200px;
+    }
+    p{
+        width: 70%;
+        margin: 0% 15%;
+        margin-top: 5px;
+        height: auto;
+        font-size: 18px;
+        font-weight: normal;
+    }
+}
+
+.atajoinicio{
+    height: 50px;
+    width: 120px;
+    margin: 20px auto;
+    a{
+        text-decoration: none;
+        color: black;
+        h5{
+            line-height: 50px;
+            color: black;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../assets/img/imagenmosaico3.png);
+    font-family: "Sriracha-Regular";
+    width: 100vw;
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr 500px;
+    gap: 0px 0px;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+}
+
+
+@font-face{
+    font-family: "Montserrat-Light";
+    src:url(../assets/font/Montserrat-Light.ttf)
+}
+
+@font-face{
+    font-family: "Sriracha-Regular";
+    src:url(../assets/font/Sriracha-Regular.ttf)
+}
+
+h1, h2, h3, h4{
+    font-family: "Montserrat-Light";
+}
+
+@import "header";
+
+.main{
+    grid-area: main; 
+    width: 100vw;
+    }
+
+@import "mainindex";
+
+@import "mainnosotros.scss";
+
+@import "mainservicios.scss";
+
+@import "mainproductos.scss";
+
+@import "maincontacto.scss";
+
+@import "footer.scss";
+
+@import "mediaquery.scss";
+
